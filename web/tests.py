@@ -7,6 +7,7 @@ class MainTestCase(unittest.TestCase):
         four = 2 + 2
         self.assertEqual(four, 4)
         self.assertNotEqual(four, 5)
+        self.assertNotEqual(four, 6)
 
 
 if __name__ == '__main__':
